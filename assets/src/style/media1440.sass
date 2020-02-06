@@ -1,0 +1,67 @@
+@media screen and ( max-width: 1558px )
+    .search
+        position: relative
+        padding-top: 10px
+        input
+            width: 200px
+            padding: 2px 60px 2px 4px
+            height: 25px
+            box-sizing: border-box
+        button
+            padding: 2px 20px
+            height: 25px
+            top: 10px
+        &.w1440
+            display: block
+        &.w1850
+            display: none
+    .disc-main,
+    .content
+        padding-top: 190px
+    .disc-main
+        .intro
+            padding: 50px
+            width: 50%
+            font-size: 20px
+
+@media screen and ( max-width: 1440px )
+    header
+        .first-line
+            padding: 20px 30px  0
+            .right-side
+                h1
+                    font-size: 34px
+                .fab 
+                    color: $green 
+                    margin: 0 5px
+                    font-size: 20px
+                    border: 2px solid lightgray
+                    transition: border .3s ease
+                    &.fa-vk
+                        padding: 5px
+                        border-radius: 50px
+                    &.fa-facebook-f
+                        padding: 5px 9px
+                        border-radius: 50px
+                    &:hover
+                        background-color: $green
+                        transition: border .3s ease
+                        color: #fff
+        .second-line
+            padding: 20px 40px
+            ul 
+                font-size: 17px
+                width: 100%
+                a
+                    +dothov
+        .news
+            font-size: 20px
+            padding: 8px 40px
+            a
+                color: #ffffff
+                +dothov
+        .disc-main,
+        .content
+            padding-top: 176px
+    
+        

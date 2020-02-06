@@ -1,0 +1,142 @@
+@media screen and ( max-width: 767px )
+    header
+        .first-line
+            padding: 10px 15px 15px
+            display: block  
+            .right-side
+                display: block
+                h1
+                    font-size: 18px
+                    padding: 10px 0 0
+                .fab
+                    display: none 
+                    margin: 0 3px
+                    font-size: 12px
+                    &.fa-vk
+                        padding: 3px 3px
+                        border-radius: 50px
+                    &.fa-facebook-f
+                        padding: 3px 5px
+                        border-radius: 50px
+                    &:hover
+                        background-color: $green
+                        transition: border .3s ease
+                        color: #fff
+            .navBurger
+                display: block
+        .second-line
+            display: none
+        .news
+            font-size: 11px
+            a
+                display: block
+                &:hover
+                    border: none
+    .search
+        &.w1440
+            display: inline-block
+    .disc-main,
+    .content
+        padding-top: 117px
+    .disc-main
+        .intro
+            padding: 30px
+            width: 60%
+            font-size: 12px
+            line-height: 1.4    
+            .second
+                margin-top: 15px
+    footer 
+        text-align: center
+        height: 100px
+        display: block
+        box-sizing: border-box
+        padding: 20px 30px
+        ul
+            font-size: 11px
+            justify-content: space-between
+            margin: 0 auto
+            a
+                margin-right: 20px
+        p
+            width: 200px
+            font-size: 12px
+            margin: 10px auto 0
+
+
+@media screen and ( max-width: 540px )
+    header
+        .first-line
+            .right-side
+                h1
+                    font-size: 14px
+    .disc-main,
+    .content
+        padding-top: 112px
+    .disc-main
+        .intro
+            width: 70%
+            font-size: 11px
+    footer
+        height: 150px 
+        ul
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-row-gap: 10px
+            font-size: 12px
+            a
+                margin-right: 0
+        p
+            width: 200px
+            font-size: 12px
+            margin: 20px auto 0
+
+@media screen and ( max-width: 400px )
+    header
+        .first-line
+            .right-side
+                h1
+                    font-size: 11px
+            .navBurger
+                width: 25px
+            .overlayMenu
+                .fab
+                    font-size: 16px
+                    &.fa-facebook-f
+                        padding: 10px 13px
+                ul 
+                    li 
+                        a 
+                            border: 1px solid rgba(255, 255, 255, 0.09)
+                            color: #fff
+                            text-decoration: none
+                            font-size: 16px
+                            padding: 10px 20px
+                            margin: 5px 0
+                            transition: 0.2s
+                            &:hover,
+                            &:active,
+                            &:focus 
+                                transform: translateX(-2px)
+                                padding-left: 80px
+                                outline: 1px solid rgba(255, 255, 255, 0.3)
+                                background: rgba(255, 255, 255, 0.03)
+    
+    .search
+        input
+            height: 17px
+            +placeholder
+                font-size: 10px
+        button
+            height: 17px
+            top: 12px
+    .disc-main,
+    .content
+        padding-top: 104px
+    .disc-main
+        .intro
+            width: 80%
+            font-size: 10px
+    
+            
+    

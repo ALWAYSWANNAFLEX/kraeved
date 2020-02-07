@@ -18,11 +18,23 @@
     .disc-main,
     .content
         padding-top: 190px
+    .sidebar
+        top: 190px
+        height: calc(100vh - 270px)
+    .content
+        min-height: calc(100vh - 270px)
     .disc-main
         .intro
             padding: 50px
             width: 50%
             font-size: 20px
+    .sidebar
+        a
+            font-size: 20px
+        p
+            font-size: 17px
+        .search
+            margin-top: 20px
 
 @media screen and ( max-width: 1440px )
     header
@@ -60,8 +72,58 @@
             a
                 color: #ffffff
                 +dothov
-        .disc-main,
-        .content
-            padding-top: 176px
+    .disc-main,
+    .content
+        padding-top: 176px
+    .sidebar
+        top: 176px
+        height: calc(100vh - 256px)
+    .content
+        min-height: calc(100vh - 256px)
+    .news-item
+    .title
+        height: 225px
+        background: #000
+        text-transform: uppercase
+        position: relative
+        h1
+            font-size: 16px
+            color: #fff
+            position: absolute
+            bottom: 10px
+            left: 15px
+    .news-disc
+        background: lightgray
+        padding: 30px 0 30px 30px
+        border-right: 30px solid lightgray
+        height: 50px
+        font-size: 14px
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+        column-count: 2
+        column-width: 50%
+        line-height: 15px
+        overflow: hidden
+        .subtitle
+            font-weight: 600 
+    .sidebar
+        padding: 30px 60px
+        a
+            font-size: 17px
+        p
+            font-size: 16px
+            margin-top: 15px
+        .search
+            margin-top: 15px
+            input
+                height: 40px
+            button
+                right: 0
+                height: 40px
+                padding: 10px 30px
+        .logo-link
+            margin-top: 15px
+            img
+                height: 80px
+                margin-right: 10px 
     
         

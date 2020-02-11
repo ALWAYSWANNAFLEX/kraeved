@@ -143,6 +143,7 @@ header
             visibility: hidden
             transition: all 0.4s ease-in-out
             overflow: hidden
+            
             &.open 
                 opacity: 0.99
                 visibility: visible
@@ -291,7 +292,7 @@ footer
     justify-content: space-between
     align-items: center
     padding: 0 50px
-    z-index: 10
+    z-index: 2
     position: relative
     ul
         display: flex
@@ -342,10 +343,17 @@ footer
             height: 80px
             margin-right: 10px
     label
-        font-size: 10px
+        font-size: 14px
         cursor: pointer
+        
+    .radio
+        &:nth-child(7)
+            margin-top: 14px
+            
+            
     input[type="radio"]
         display: none
+            
         &+label
             &::before
                 content: "\26AB"

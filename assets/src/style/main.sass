@@ -314,9 +314,9 @@ footer
     overflow-y: scroll
     a
         text-decoration: underline
-        font-size: 20px
+        font-size: 15px
     p
-        font-size: 16px
+        font-size: 12px
         margin-top: 15px
     .lighter
         opacity: 0.5
@@ -380,7 +380,7 @@ footer
     min-height: calc(100vh - 271px)
     width: 70%
 .sidebar
-    height: calc(100vh - 80)
+    height: calc(100vh - 80px)
 
 .news-item
 .title
@@ -423,11 +423,15 @@ footer
         display: block
     .name
         display: flex
-        align-items: center
+        justify-content: center
+        flex-direction: column
         width: 100%
         p
-            padding: 10px
+            padding: 10px 10px 0 10px
             width: 50%
+        .region
+            font-size: 12px
+            width: 100%
     .gray
         background: lightgray
     .img
@@ -436,6 +440,25 @@ footer
         img 
             opacity: 0.6
 
+
+.person-about
+    padding: 40px 70px
+    &_sidebar
+        width: 30%
+        padding-top: 171px
+        padding-bottom: 80px
+        padding-right: 15%
+        background-color: lightgray
+        box-sizing: border-box
+        position: fixed
+        top: 0
+        right: 0
+        img
+            width: 150px
+        h2, p
+            margin-left: 40px
+        h2
+            margin-top: 20px
 .grid
     &:after
         content: ''
